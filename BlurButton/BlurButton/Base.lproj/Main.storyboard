@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlurButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRi-rc-Ls9">
+                                <rect key="frame" x="214" y="285" width="172" height="30"/>
+                                <state key="normal" title="Blur Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bZ-3C-TMp">
+                                <rect key="frame" x="214" y="323" width="172" height="30"/>
+                                <inset key="titleEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                <state key="normal" title="Clear Background Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZ5-Xv-wnU">
+                                <rect key="frame" x="214" y="361" width="172" height="30"/>
+                                <state key="normal" title="Opaque Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhR-89-men">
+                                <rect key="frame" x="214" y="399" width="172" height="30"/>
+                                <state key="normal" title="Round Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16E-C7-aAK">
+                                <rect key="frame" x="214" y="247" width="172" height="30"/>
+                                <state key="normal" title="Normal Button"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="16E-C7-aAK" firstAttribute="height" secondItem="qRi-rc-Ls9" secondAttribute="height" id="0LD-pu-Zqd"/>
+                            <constraint firstItem="yhR-89-men" firstAttribute="width" secondItem="qRi-rc-Ls9" secondAttribute="width" id="Gq2-sT-9te"/>
+                            <constraint firstItem="DZ5-Xv-wnU" firstAttribute="height" secondItem="qRi-rc-Ls9" secondAttribute="height" id="H1y-t2-sx6"/>
+                            <constraint firstItem="2bZ-3C-TMp" firstAttribute="width" secondItem="qRi-rc-Ls9" secondAttribute="width" id="NLM-Bc-uv7"/>
+                            <constraint firstItem="16E-C7-aAK" firstAttribute="width" secondItem="qRi-rc-Ls9" secondAttribute="width" id="O45-E6-JcS"/>
+                            <constraint firstItem="yhR-89-men" firstAttribute="top" secondItem="DZ5-Xv-wnU" secondAttribute="bottom" constant="8" id="PNd-nS-rDp"/>
+                            <constraint firstItem="2bZ-3C-TMp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TMz-Ng-piB"/>
+                            <constraint firstItem="16E-C7-aAK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W2t-29-rbP"/>
+                            <constraint firstItem="2bZ-3C-TMp" firstAttribute="top" secondItem="qRi-rc-Ls9" secondAttribute="bottom" constant="8" id="Wy6-JW-EIM"/>
+                            <constraint firstItem="16E-C7-aAK" firstAttribute="bottom" secondItem="qRi-rc-Ls9" secondAttribute="top" constant="-8" id="gFy-Wz-hau"/>
+                            <constraint firstItem="qRi-rc-Ls9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kHw-eG-VGd"/>
+                            <constraint firstItem="2bZ-3C-TMp" firstAttribute="height" secondItem="qRi-rc-Ls9" secondAttribute="height" id="kQf-V4-yCK"/>
+                            <constraint firstItem="qRi-rc-Ls9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="m0G-0O-Svt"/>
+                            <constraint firstItem="DZ5-Xv-wnU" firstAttribute="top" secondItem="2bZ-3C-TMp" secondAttribute="bottom" constant="8" id="n0R-Vr-AbG"/>
+                            <constraint firstItem="yhR-89-men" firstAttribute="height" secondItem="qRi-rc-Ls9" secondAttribute="height" id="rPy-tX-vWb"/>
+                            <constraint firstItem="DZ5-Xv-wnU" firstAttribute="width" secondItem="qRi-rc-Ls9" secondAttribute="width" id="vYo-WD-a9S"/>
+                            <constraint firstItem="yhR-89-men" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wUN-mv-hYc"/>
+                            <constraint firstItem="DZ5-Xv-wnU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xXe-RW-xxy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blurButton" destination="qRi-rc-Ls9" id="Rey-n4-joD"/>
+                        <outlet property="clearBGButton" destination="2bZ-3C-TMp" id="i3M-pI-asb"/>
+                        <outlet property="normalButton" destination="16E-C7-aAK" id="ig6-rk-qYI"/>
+                        <outlet property="opaqueButton" destination="DZ5-Xv-wnU" id="IjJ-6H-uPD"/>
+                        <outlet property="roundButton" destination="yhR-89-men" id="yZV-xs-gC9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="337"/>
+        </scene>
+    </scenes>
+</document>

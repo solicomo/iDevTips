@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBBA5ECF1D0BB253008B128C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA5ECE1D0BB253008B128C /* AppDelegate.swift */; };
+		FBBA5ED11D0BB253008B128C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA5ED01D0BB253008B128C /* ViewController.swift */; };
+		FBBA5ED41D0BB253008B128C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA5ED21D0BB253008B128C /* Main.storyboard */; };
+		FBBA5ED61D0BB253008B128C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBA5ED51D0BB253008B128C /* Assets.xcassets */; };
+		FBBA5ED91D0BB253008B128C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBA5ED71D0BB253008B128C /* LaunchScreen.storyboard */; };
+		FBBA5EE41D0BB253008B128C /* BlurButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA5EE31D0BB253008B128C /* BlurButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBBA5EE01D0BB253008B128C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBA5EC31D0BB253008B128C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBA5ECA1D0BB253008B128C;
+			remoteInfo = BlurButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBBA5ECB1D0BB253008B128C /* BlurButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBA5ECE1D0BB253008B128C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBBA5ED01D0BB253008B128C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBBA5ED31D0BB253008B128C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBBA5ED51D0BB253008B128C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBBA5ED81D0BB253008B128C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBBA5EDA1D0BB253008B128C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBA5EDF1D0BB253008B128C /* BlurButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBA5EE31D0BB253008B128C /* BlurButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurButtonTests.swift; sourceTree = "<group>"; };
+		FBBA5EE51D0BB253008B128C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBA5EC81D0BB253008B128C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBA5EDC1D0BB253008B128C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBA5EC21D0BB253008B128C = {
+			isa = PBXGroup;
+			children = (
+				FBBA5ECD1D0BB253008B128C /* BlurButton */,
+				FBBA5EE21D0BB253008B128C /* BlurButtonTests */,
+				FBBA5ECC1D0BB253008B128C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBA5ECC1D0BB253008B128C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA5ECB1D0BB253008B128C /* BlurButton.app */,
+				FBBA5EDF1D0BB253008B128C /* BlurButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBA5ECD1D0BB253008B128C /* BlurButton */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA5ECE1D0BB253008B128C /* AppDelegate.swift */,
+				FBBA5ED01D0BB253008B128C /* ViewController.swift */,
+				FBBA5ED21D0BB253008B128C /* Main.storyboard */,
+				FBBA5ED51D0BB253008B128C /* Assets.xcassets */,
+				FBBA5ED71D0BB253008B128C /* LaunchScreen.storyboard */,
+				FBBA5EDA1D0BB253008B128C /* Info.plist */,
+			);
+			path = BlurButton;
+			sourceTree = "<group>";
+		};
+		FBBA5EE21D0BB253008B128C /* BlurButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA5EE31D0BB253008B128C /* BlurButtonTests.swift */,
+				FBBA5EE51D0BB253008B128C /* Info.plist */,
+			);
+			path = BlurButtonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBA5ECA1D0BB253008B128C /* BlurButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBA5EE81D0BB253008B128C /* Build configuration list for PBXNativeTarget "BlurButton" */;
+			buildPhases = (
+				FBBA5EC71D0BB253008B128C /* Sources */,
+				FBBA5EC81D0BB253008B128C /* Frameworks */,
+				FBBA5EC91D0BB253008B128C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurButton;
+			productName = BlurButton;
+			productReference = FBBA5ECB1D0BB253008B128C /* BlurButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBBA5EDE1D0BB253008B128C /* BlurButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBA5EEB1D0BB253008B128C /* Build configuration list for PBXNativeTarget "BlurButtonTests" */;
+			buildPhases = (
+				FBBA5EDB1D0BB253008B128C /* Sources */,
+				FBBA5EDC1D0BB253008B128C /* Frameworks */,
+				FBBA5EDD1D0BB253008B128C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBA5EE11D0BB253008B128C /* PBXTargetDependency */,
+			);
+			name = BlurButtonTests;
+			productName = BlurButtonTests;
+			productReference = FBBA5EDF1D0BB253008B128C /* BlurButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBA5EC31D0BB253008B128C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Soli;
+				TargetAttributes = {
+					FBBA5ECA1D0BB253008B128C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7AYR53PG84;
+					};
+					FBBA5EDE1D0BB253008B128C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7AYR53PG84;
+						TestTargetID = FBBA5ECA1D0BB253008B128C;
+					};
+				};
+			};
+			buildConfigurationList = FBBA5EC61D0BB253008B128C /* Build configuration list for PBXProject "BlurButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBA5EC21D0BB253008B128C;
+			productRefGroup = FBBA5ECC1D0BB253008B128C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBA5ECA1D0BB253008B128C /* BlurButton */,
+				FBBA5EDE1D0BB253008B128C /* BlurButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBA5EC91D0BB253008B128C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBA5ED91D0BB253008B128C /* LaunchScreen.storyboard in Resources */,
+				FBBA5ED61D0BB253008B128C /* Assets.xcassets in Resources */,
+				FBBA5ED41D0BB253008B128C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBA5EDD1D0BB253008B128C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBA5EC71D0BB253008B128C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBA5ED11D0BB253008B128C /* ViewController.swift in Sources */,
+				FBBA5ECF1D0BB253008B128C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBA5EDB1D0BB253008B128C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBA5EE41D0BB253008B128C /* BlurButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBBA5EE11D0BB253008B128C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBA5ECA1D0BB253008B128C /* BlurButton */;
+			targetProxy = FBBA5EE01D0BB253008B128C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBBA5ED21D0BB253008B128C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBA5ED31D0BB253008B128C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBBA5ED71D0BB253008B128C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBA5ED81D0BB253008B128C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBBA5EE61D0BB253008B128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBBA5EE71D0BB253008B128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBA5EE91D0BB253008B128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BlurButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solicomo.idevtips.BlurButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FBBA5EEA1D0BB253008B128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BlurButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solicomo.idevtips.BlurButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FBBA5EEC1D0BB253008B128C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solicomo.idevtips.BlurButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurButton.app/BlurButton";
+			};
+			name = Debug;
+		};
+		FBBA5EED1D0BB253008B128C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solicomo.idevtips.BlurButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurButton.app/BlurButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBA5EC61D0BB253008B128C /* Build configuration list for PBXProject "BlurButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBA5EE61D0BB253008B128C /* Debug */,
+				FBBA5EE71D0BB253008B128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBA5EE81D0BB253008B128C /* Build configuration list for PBXNativeTarget "BlurButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBA5EE91D0BB253008B128C /* Debug */,
+				FBBA5EEA1D0BB253008B128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBA5EEB1D0BB253008B128C /* Build configuration list for PBXNativeTarget "BlurButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBA5EEC1D0BB253008B128C /* Debug */,
+				FBBA5EED1D0BB253008B128C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBA5EC31D0BB253008B128C /* Project object */;
+}
