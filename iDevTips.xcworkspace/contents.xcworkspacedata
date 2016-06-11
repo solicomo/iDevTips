@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ButtonGroup/ButtonGroup.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BlurButton/BlurButton.xcodeproj">
    </FileRef>
 </Workspace>
